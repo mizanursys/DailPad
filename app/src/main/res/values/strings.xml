@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="BackSpace">BackSpace</string>
+    <string name="Clear">Clear</string>
+    <string name="connect_phone" />
+    <string name="hello_blank_fragment">Hello blank fragment </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Add Contact Demo</string>
+    <string name="hnt_et_name">Display Name</string>
+    <string name="hnt_et_mobile_phone">Mobile Phone</string>
+    <string name="hnt_et_home_phone">Home Phone</string>
+    <string name="hnt_et_home_email">Home Email</string>
+    <string name="hnt_et_work_email">Work Email</string>
+    <string name="str_btn_add">Save</string>
+    <string name="str_btn_contacts">Phone Book</string>
+    <string name="Missed" color="#9a1d1d">Missed</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Incoming" color="#e6ff03" formatted="true">Incoming</string>
+    <string name="in"><color>#6DC287</color>INCOMMING </string>
+    <string name="Inco"><font color="red">Incomimg</font></string>
+    <string name="new_text">This is &lt;font color="#0000FF"&gt;blue&lt;/font&gt;</string>
+    <string name="COLOR">Font color is <font fgcolor="#ffff0000">red</font></string>
+    <string name="colorText"><![CDATA[ Give your string here. Like, This sentence has a<b><font color=#FF0000>Red color</b> text.]]></string>
+    <string name="some_text"><font fgcolor="red">Missed</font></string>
+    <string name="date">Date</string>
+    <string name="number">Number</string>
+    <string name="name">Name</string>
+    <string name="privecy">This App Needs 3 permissions </string>
+    <string name="privecy2">1.CALL\n2.SMS\n3.Read Call_logs and Contact</string>
+    <string name="privecy3">***It Will Not Saving Any Personal Data</string>
+</resources>

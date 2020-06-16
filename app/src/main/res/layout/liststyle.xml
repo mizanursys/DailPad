@@ -1,0 +1,115 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="bottom"
+    android:background="#000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="5sp"
+            tools:ignore="RtlSymmetry,UselessLeaf">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvNameMain"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#87afad"
+                android:text="Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:longClickable="true"/>
+            <TextView
+                android:id="@+id/tvNumberMain"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:textColor="#dcd9d9"
+                android:textStyle="bold"
+                android:text="Number"
+                android:longClickable="true"/>
+
+
+            <TextView
+                android:id="@+id/add"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_marginRight="5dp"
+                android:background="@mipmap/addcon"
+                android:longClickable="true"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:textColor="#692020"
+                android:longClickable="true"
+                android:text="@string/date" />
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:textColor="#f2fff3"
+                android:layout_weight="4"
+                android:longClickable="true" />
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_weight="4"
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:longClickable="true"
+                android:textColor="#ffffff" />
+            <TextView
+                android:id="@+id/tvTypesms"
+                android:gravity="right"
+                android:layout_width="40sp"
+                android:layout_height="38sp"
+                android:layout_marginRight="5sp"
+                android:longClickable="true"
+                android:background="@mipmap/sms5"
+                android:backgroundTint="#c28a08"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3sp"
+        android:background="#666666"
+        tools:ignore="SmallSp" />
+</LinearLayout>

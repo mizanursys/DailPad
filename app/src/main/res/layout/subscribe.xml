@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF5F5">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:visibility="gone">
+    <LinearLayout
+        android:id="@+id/ll_sub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="অ্যাড রিমুভ করতে চান?"
+            android:textColor="#E91E63"
+            android:textSize="36sp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/tv_adtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:text="গেমটি খেলার জন্য পেমেন্ট করুন ২.২৫ টাকা(প্রতিদিন)"
+            android:textColor="#C51121"
+            android:textSize="25sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="11dp">
+            <Button
+                android:id="@+id/button_sendSMS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#860404"
+                android:text="বাতিল করুন"
+                android:textColor="#E6E7EC"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button_submit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#103F12"
+                android:text="ঠিক আছে"
+                android:textColor="#F7EEEE"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_sub2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border2"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:visibility="gone">
+        <TextView
+            android:layout_marginBottom="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="অ্যাড রিমুভ করতে চান?"
+            android:textColor="#E91E63"
+            android:textSize="36sp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/tv_adtext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:text="গেমটি খেলার জন্য পেমেন্ট করুন ২.২৫ টাকা(প্রতিদিন)"
+            android:textColor="#C51121"
+            android:textSize="25sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+            <Button
+                android:id="@+id/button_sendSMS2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#860404"
+                android:text="বাতিল করুন"
+                android:textColor="#E6E7EC"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button_submit2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#103F12"
+                android:text="ঠিক আছে"
+                android:textColor="#F7EEEE"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_sub3"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/border4"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/border5"
+            android:layout_gravity="center"
+            android:gravity="center"
+            tools:ignore="Orientation">
+
+            <TextView
+                android:id="@+id/tv_adtext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10sp"
+                android:text="এ্যপ্সটি ব্যবহারের জন্য পেমেন্ট করুন ২.২৫ টাকা(প্রতিদিন)"
+                android:textColor="#090808"
+                android:textSize="25sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/button_submit3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border5"
+                    android:text="সাবস্ক্রাইব করুন"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#FF3D00"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/button_sendSMS3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border5"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="এস ম এস এর মাধ্যমে সাবস্ক্রাইব করুণ"/>
+
+                <Button
+                    android:id="@+id/button_cancel1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border3"
+                    android:text="বাতিল করুন"
+                    android:textColor="#E6E7EC"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border3"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:id="@+id/ll_sub4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/blue"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp" />
+            <TextView
+                android:id="@+id/tv_adtext4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10sp"
+                android:text="গেমটি খেলার জন্য পেমেন্ট করুন ২.২৫ টাকা(প্রতিদিন)"
+                android:textColor="#090808"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:background="#000"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:background="@drawable/yellow"
+                android:layout_gravity="bottom"
+                android:gravity="bottom">
+                <ImageButton
+                    android:id="@+id/button_sendSMS4"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="70dp"
+                    android:textColor="#E6E7EC" />
+                <ImageButton
+                    android:id="@+id/button_submit4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#FDF0F0"
+                    android:layout_gravity="center"
+                    android:textColor="#F7EEEE"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/tv_adtex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="আপনার কোড এখানে সাবমিট করুন"
+            android:textColor="#E91E63"
+            android:textSize="23sp" />
+        <EditText
+            android:id="@+id/editText_getCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="এখানে লিখুন"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="#F2F50057"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="বাতিল" />
+            <Button
+                android:id="@+id/button_code"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:background="#673AB7"
+                android:text="সাবমিট"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

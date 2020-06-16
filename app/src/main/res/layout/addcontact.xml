@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:inputType="text"
+        android:background="@drawable/thm3"
+        android:hint="Person Name"
+        android:textColorHint="#797575"
+        android:textSize="25dp"
+        android:textColor="#fffefe"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/et_mobile_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:inputType="phone"
+        android:hint="@string/hnt_et_mobile_phone"
+        android:background="@drawable/thm3"
+        android:textColorHint="#797575"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#fffefe"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/et_home_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:inputType="phone"
+        android:hint="@string/hnt_et_home_phone"
+        android:background="@drawable/thm3"
+        android:textColorHint="#797575"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#fffefe"
+        android:layout_marginTop="10dp" />
+
+
+        <EditText
+        android:id="@+id/et_home_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/hnt_et_home_email"
+        android:background="@drawable/thm3"
+        android:textColorHint="#797575"
+        android:textSize="25dp"
+        android:gravity="center"
+         android:textColor="#fff4f4"
+        android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/et_work_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hnt_et_home_email"
+            android:background="@drawable/thm3"
+            android:textColorHint="#797575"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#fff4f4"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="80sp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:backgroundTint="#e4e47c"
+            android:background="@drawable/save"
+            />
+    </LinearLayout>
+</LinearLayout>
